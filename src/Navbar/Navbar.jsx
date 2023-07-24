@@ -2,11 +2,10 @@ import React from 'react';
 import { createTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Typography, IconButton, Avatar } from '@material-ui/core';
 import { Search as SearchIcon } from '@material-ui/icons';
-import "./Navbar.css"
 const useStyles = makeStyles((theme) => ({
   navbar: {
     backgroundColor: 'white',
-    paddingLeft: '4rem',
+    paddingLeft: '3rem'
   },
   searchField: {
     display: 'flex',
@@ -18,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
 
     [theme.breakpoints.down('xs')]: {
       display: 'none'
+      // width:'10rem'
     },
   },
   searchIcon: {
@@ -43,6 +43,12 @@ const useStyles = makeStyles((theme) => ({
       marginRight: '1rem'
     },
   },
+  username:{
+    
+    [theme.breakpoints.down('xs')]: {
+      display:'none'
+    },
+  }
 
 }));
 
@@ -74,7 +80,7 @@ const Navbar = () => {
           {/* User image and name */}
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <Avatar src="vineet1.jpeg" alt="User Avatar" style={{ marginRight: '10px' }} />
-            <Typography variant="body1" style={{ color: 'black' }}>Vineet Jadhav</Typography>
+            <Typography variant="body1" className={classes.username} style={{ color: 'black' }}>Vineet Jadhav</Typography>
           </div>
         </div>
       </Toolbar>

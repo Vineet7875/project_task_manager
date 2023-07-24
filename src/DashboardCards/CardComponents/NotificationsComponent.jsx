@@ -30,10 +30,12 @@ const NotificationsComponent = ({ notificationsData }) => {
           </Typography>
         }
         action={
-          <IconButton color="primary">
-            <Add />
+          <div style={{ display: 'flex',alignItems:'center' }}>
+            <IconButton color="primary">
+              <Add style={{ background: '#3982fd', borderRadius: '8px', padding: '3px', color: 'white', fontSize: '1.2rem' }} />
+            </IconButton>
             <Notifications />
-          </IconButton>
+          </div>
         }
       />
       <CardContent>

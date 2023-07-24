@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography, IconButton } from '@material-ui/core';
-import { AddCircleOutline } from '@material-ui/icons';
+import { AddCircleOutline,Add } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -30,8 +30,8 @@ const ToDoList = ({ toDoListData }) => {
                 }
                 action={
                     <IconButton color="primary">
-                        <AddCircleOutline />
-                    </IconButton>
+                <Add style={{background:'#3982fd',borderRadius:'8px',padding:'3px',color:'white',fontSize:'1.2rem'}}/>
+              </IconButton>
                 }
             />
             <CardContent>

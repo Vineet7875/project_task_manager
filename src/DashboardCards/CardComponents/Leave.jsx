@@ -43,8 +43,8 @@ const Leave = ({ leaveData }) => {
         }
         action={
           <IconButton color="primary">
-            <Add />
-          </IconButton>
+                <Add style={{background:'#3982fd',borderRadius:'8px',padding:'3px',color:'white',fontSize:'1.2rem'}}/>
+              </IconButton>
         }
       />
       <CardContent>

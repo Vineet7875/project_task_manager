@@ -1,4 +1,4 @@
-// Cards.js
+
 import React from 'react';
 import { styled, ThemeProvider, createTheme } from '@mui/material/styles';
 import { Grid } from '@material-ui/core';
@@ -6,7 +6,7 @@ import Sidebar from '../Navbar/sidebar';
 import MainTasksCard from './CardComponents/MainTasksCard';
 import Meeting from './CardComponents/Meeting';
 import Leave from './CardComponents/Leave';
-import Workload from '../DashboardCards/CardComponents/Workload/Workload';
+import Workload from './CardComponents/Workload/Workload';
 import ToDoList from './CardComponents/ToDoList';
 import NotificationsComponent from './CardComponents/NotificationsComponent';
 import data from '../JSONDATA/data.json'; // Import the data from the data.json file
@@ -21,23 +21,23 @@ const Wrapper = styled('div')({
     justifyContent: 'space-around',
     '@media (max-width: 1270px)': {
         gridTemplateColumns: '1fr 1fr',
-        margin: '2rem 4rem',
+        margin: '2rem 3rem',
         width: '100vw'
     },
     '@media (max-width: 770px)': {
         gridTemplateColumns: '1fr 1fr',
-        margin: '2rem 4rem',
+        margin: '2rem 3rem',
         width: '100vw'
     },
     '@media (max-width: 600px)': {
         gridTemplateColumns: '1fr',
-        margin: '2rem 4rem',
+        margin: '2rem 3rem',
         width: '100vw',
         gap: '1.5rem'
     },
     '@media (max-width: 500px)': {
         gridTemplateColumns: '1fr',
-        margin: '2rem 3.2rem',
+        margin: '2rem 2.5rem',
         width: '100vw',
         gap: '1.5rem'
     },
@@ -78,7 +78,7 @@ const Cards = () => {
         </Grid>
         {/* Main Task Card */}
         <Grid item xs={12} xl={6} lg={6}>
-          <MainTasksCard />
+          <MainTasksCard />*
         </Grid>
         <Wrapper>
           {/* Meeting Card */}

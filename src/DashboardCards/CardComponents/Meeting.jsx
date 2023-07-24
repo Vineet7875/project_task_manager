@@ -35,7 +35,7 @@ const Meeting = ({ meetingsData }) => {
             }
             action={
               <IconButton color="primary">
-                <Add />
+                <Add style={{background:'#3982fd',borderRadius:'8px',padding:'3px',color:'white',fontSize:'1.2rem'}}/>
               </IconButton>
             }
           />
@@ -57,7 +57,7 @@ const Meeting = ({ meetingsData }) => {
                 </Grid>
                 <Grid item>
                   <IconButton color="primary">
-                    <Link />
+                    <Link style={{color:'black'}}/>
                   </IconButton>
                 </Grid>
               </div>

@@ -9,7 +9,7 @@ const BarChart = ({ Graphdata }) => {
       <YAxis dataKey="label" type="category" style={{ fontSize: '0.8rem' }} />
       <Tooltip />
       <Legend />
-      <Bar dataKey="quantity" fill="#8884d8" style={{ fontSize: '0.8rem' }} />
+      <Bar dataKey="quantity" fill="#3982fd" style={{ fontSize: '0.8rem' }} />
     </MuiBarChart>
   );
 };

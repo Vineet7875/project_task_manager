@@ -24,15 +24,15 @@ const useStyles = makeStyles((theme) => ({
     },
     submitButton: {
         fontFamily: 'Titillium Web, sans-serif',
-        backgroundColor: 'orange',
+        backgroundColor: '#3982fd',
         color: 'white',
         padding: '0.4rem 3.5rem',
         borderRadius: '3rem',
         fontSize: '1rem',
         cursor: 'pointer',
-        border: '1px solid orange',
+        border: '1px solid #3982fd',
         '&:hover': {
-            backgroundColor: '#ffa500b3',
+            backgroundColor: '#3982fdd4',
             color: 'white'
         },
     },
