@@ -1,0 +1,88 @@
+{
+    "meetingsData": [
+        {
+            "title": "MEETING",
+            "date": "27 June 2023",
+            "attendees": [
+                {
+                    "name": "Username",
+                    "time": "10:00 AM",
+                    "avatar": "vineet1.jpeg"
+                },
+                {
+                    "name": "Username",
+                    "time": "10:00 AM",
+                    "avatar": "vineet1.jpeg"
+                }
+            ]
+        }
+    ],
+    "leaveData": [
+        {
+            "name": "Pritam",
+            "department": "WebDev",
+            "type": "Full Day",
+            "dates": "27-28 July"
+        },
+        {
+            "name": "Ali",
+            "department": "WebDev",
+            "type": "Full Day",
+            "dates": "27 July"
+        }
+    ],
+    "toDoListData": [
+        {
+            "icon": "AddCircleOutline",
+            "text": "Do something important"
+        },
+        {
+            "icon": "AddCircleOutline",
+            "text": "Complete the report"
+        },
+        {
+            "icon": "AddCircleOutline",
+            "text": "Attend the meeting"
+        },
+        {
+            "icon": "AddCircleOutline",
+            "text": "Attend the meeting"
+        }
+    ],
+    "notificationsData": [
+        {
+            "icon": "Notifications",
+            "text": "New message received"
+        },
+        {
+            "icon": "Notifications",
+            "text": "Task deadline approaching"
+        },
+        {
+            "icon": "Notifications",
+            "text": "Project status updated"
+        },
+        {
+            "icon": "Notifications",
+            "text": "Project status updated"
+        }
+    ],
+    "Graphdata": [
+        {
+            "label": "ABC",
+            "quantity": 3
+        },
+        {
+            "label": "XYZ",
+            "quantity": 6
+        },
+        {
+            "label": "MNO",
+            "quantity": 2
+        },
+        {
+            "label": "PQR",
+            "quantity": 7
+        }
+    ]
+}
